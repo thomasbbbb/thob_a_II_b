@@ -1,0 +1,58 @@
+{
+    "author": "thomasbb@gmx.de",
+    "dependencies": {},
+    "keywords": [],
+    "name": "thob-a-ii",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "ThoB A II",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_BATT_LVL": 3,
+            "KEY_BATT_PERC": 7,
+            "KEY_DATE_DELI": 5,
+            "KEY_DATE_FORMAT": 4,
+            "KEY_SEC_COL": 2,
+            "KEY_SEC_VIS": 6,
+            "KEY_SYM_BATT": 1,
+            "KEY_WEEK_TYPE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Zeichnung2f.png",
+                    "name": "DAIL3",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/low_batt2.png",
+                    "name": "LOW_BATT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge_batt2.png",
+                    "name": "CHARGE_BATT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ball.png",
+                    "name": "BALL",
+                    "type": "png-trans"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "08d763ba-a98b-4058-a8e8-55197b66df80",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.11.0"
+}
