@@ -25,22 +25,20 @@
                 {
                     "file": "images/Zeichnung2f.png",
                     "name": "DAIL3",
+                    "targetPlatforms": null,
                     "type": "bitmap"
                 },
                 {
                     "file": "images/low_batt2.png",
                     "name": "LOW_BATT",
+                    "targetPlatforms": null,
                     "type": "bitmap"
                 },
                 {
                     "file": "images/charge_batt2.png",
                     "name": "CHARGE_BATT",
+                    "targetPlatforms": null,
                     "type": "bitmap"
-                },
-                {
-                    "file": "images/ball.png",
-                    "name": "BALL",
-                    "type": "png-trans"
                 }
             ]
         },

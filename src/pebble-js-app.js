@@ -15,7 +15,8 @@ Pebble.addEventListener("showConfiguration",
       platform="aplite";
     } */
     
-    Pebble.openURL('https://www.googledrive.com/host/0B9NFRZUyn1ZpM3dtNVFHUk5VaHM');//Aplite
+    Pebble.openURL('https://drive.google.com/open?id=0B9NFRZUyn1ZpTUUtcGgzaHZ5Sjg');//Aplite
+//    Pebble.openURL('http://www.wotb.de/pebble_config/c_thobaii_time.html');//Aplite
       
 /*    if(platform!="aplite") {
       Pebble.openURL('https://www.googledrive.com/host/0B9NFRZUyn1ZpTUUtcGgzaHZ5Sjg');//Basalt

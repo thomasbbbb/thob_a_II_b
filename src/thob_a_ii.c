@@ -647,16 +647,19 @@ static void init() {
   gcWatchFaceVG=GColorBlack;
   
   window = window_create(); //Creates a new Window on the heap and initalizes it with the default values
+
   window_set_window_handlers(window, (WindowHandlers) {
     .load = window_load,
     .unload = window_unload,
   });
   
+  window_stack_push(window, true); //push window on stack, true = animate
+  
+  //APP_LOG(APP_LOG_LEVEL_INFO, "window_stack_push");
+  
   //open AppMessage to enable communication with the phone
   app_message_register_inbox_received((AppMessageInboxReceived) in_recv_handler);
   app_message_open(app_message_inbox_size_maximum(), app_message_outbox_size_maximum());
-  
-  window_stack_push(window, true); //push window on stack, true = animate
 
   // init text buffer -------------
   s_date_buffer[0] = '\0';
